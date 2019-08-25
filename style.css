@@ -67,3 +67,24 @@ body
     position: relative;
     top: -0.3em;
 }
+button{
+	border-style: none;
+	background-color: white;
+	border-radius: 40px;
+	padding: 25px 160px;
+	margin-left:109px;
+	overflow: auto;
+	z-index: -1;
+}
+a{
+	text-decoration: none;
+	border-radius: 40px;
+	font-size: 16px;
+	background-color: white;
+	color: #006EFE;
+	overflow: auto;
+
+}
+a:hover{
+	text-decoration: none;
+}
