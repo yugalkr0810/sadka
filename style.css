@@ -1,66 +1,66 @@
-body{
-    margin: 0 auto;
+..html
+{ 
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
     padding: 0;
-    max-width: 100%;
-
+    box-sizing: border-box;
 }
-.thor{
-	   margin: 0 auto;
-	   background-color: #006FFF;
-	   width: 90%;
-
-
+.textbox
+{
+    margin-top: 4em;
+    box-sizing: border-box;
+    position: relative;
 }
-
-h1{
-	color: white;
-	text-align: left;
-	letter-spacing: 0px;
-	font-family: Etna, sans serif;
-	font-weight: bold;
-	margin-top: 198px;
-	margin-left: 109px;
-	z-index: -1;
-	}
-p{
-	color: white;
-	font-size: 20px;
-	font-family: Brandon Grotesque;
-	margin-left: 109px;
-	margin-top: 73px;
-	margin-bottom: 73px;
-	z-index: -1;
-
-
+.imgdiv
+{   box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    position: relative;
 }
-button{
-	border-style: none;
-	background-color: white;
-	border-radius: 40px;
-	padding: 25px 160px;
-	margin-left:109px;
-	overflow: auto;
-	z-index: -1;
-}
-
-a{
-	text-decoration: none;
-	border-radius: 40px;
-	font-size: 16px;
-	background-color: white;
-	color: #006EFE;
-	overflow: auto;
-
-}
-a:hover{
-	text-decoration: none;
-}
-img{
-	max-width: : 90%;
-	height: auto;
-}
-.image{
-	max-height: 100vh;
+.image
+{
+    max-height: 100vh;
     max-width: auto;
-    z-index: 1;
+}
+.clg-desc
+{   z-index: 0;
+    background: #006FFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 40px #000000;
+    opacity: 1;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.heading
+{
+    font-size: 3.45em;
+    font-weight: bolder;
+    text-align: left;
+    font-family: Etna;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.content
+{
+    text-align: left;
+    font-family: Brandon Grotesque;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 1.33em;
+}
+.number
+{
+    text-align: Left;
+    font-family: Etna;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 0.2;
+    font-size: 9em;
+    box-sizing: border-box;
+    position: relative;
+    top: -0.3em;
 }
