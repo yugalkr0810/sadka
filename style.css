@@ -2,8 +2,8 @@
 { 
     max-height: 100%;
     max-width: 95%;
-    margin: 0 auto;
-    padding: 0 10%;
+    margin: 0 10%;
+    padding: 0;
     box-sizing: border-box;
 }
 .textbox
