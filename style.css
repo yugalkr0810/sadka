@@ -14,8 +14,8 @@
 }
 .imgdiv
 {   box-sizing: border-box;
-    text-align: center;
-    align-content: center;
+    text-align: right;
+    align-content: right;
     position: right;
 }
 .image
